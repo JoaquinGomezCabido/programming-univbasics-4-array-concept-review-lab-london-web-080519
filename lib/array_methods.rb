@@ -2,8 +2,9 @@ def find_element_index(array, value_to_find)
   # Add your solution here
   index = 0
   array.each do |element|
-    element == value_to_find
-    index++
+    if element == value_to_find do
+      index++
+    end
     return index
   end
   return nil
@@ -13,8 +14,9 @@ def find_max_value(array)
   # Add your solution here
   max = array.first
   array.each do |element|
-    element > max
-    max = element
+    if element > max do
+      max = element
+    end
   end
   return max
 end
@@ -23,8 +25,9 @@ def find_min_value(array)
   # Add your solution here
   min = array.first
   array.each do |element|
-    element < min
-    min = element
+    if element < min do
+      min = element
+    end
   end
   return min
 end
