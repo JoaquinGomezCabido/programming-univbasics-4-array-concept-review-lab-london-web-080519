@@ -45,6 +45,3 @@ describe 'Finding data' do
       expect(find_min_value(zig_zag)).to eq(4)
     end
   end
-
-
-
